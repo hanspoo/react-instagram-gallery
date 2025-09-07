@@ -1,10 +1,12 @@
 # React Instagram Photo Gallery
 
+A react grid instagram style gallery.
+
 ## To see it in action:
 
 ```
-git clone ..
-cd xxx
+git clone https://github.com/hanspoo/react-instagram-gallery
+cd react-instagram-gallery
 npm install
 npm run dev
 ```
