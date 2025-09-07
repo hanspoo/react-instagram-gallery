@@ -20,7 +20,7 @@ Besides react and tailwind, it uses:
 
 ## Usage
 
-copy src/PhotoGallery.tsx wgere you have your components and use.
+copy the component src/PhotoGallery.tsx where you have your components and use.
 
 ## Motivation
 
