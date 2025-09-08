@@ -4,6 +4,10 @@ A react grid instagram style gallery.
 
 ## To see it in action:
 
+Demo:
+
+`http://gondor.welinux.cl/`
+
 ```
 git clone https://github.com/hanspoo/react-instagram-gallery
 cd react-instagram-gallery
@@ -60,4 +64,11 @@ function App() {
 }
 
 export default App;
+```
+
+## DOcker
+
+```
+docker build -t react-instagram-gallery .
+docker run -d -p 9876:80 react-instagram-gallery
 ```
