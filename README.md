@@ -6,7 +6,7 @@ A react grid instagram style gallery.
 
 Demo:
 
-`http://gondor.welinux.cl/`
+http://gondor.welinux.cl/
 
 ```
 git clone https://github.com/hanspoo/react-instagram-gallery
