@@ -19,15 +19,19 @@ const images = [
 
 function App() {
   return (
-    <>
-      <h1 className="text-3xl font-bold">React Instagram Photo Gallery</h1>
-      <p>
-        Styled with vanilla tailwind it has a style similar to Instagram, with a
-        grid where the photos can be opened, are fully responsive, and can also
-        be swiped with a finger.
-      </p>
+    <div className="md:mx-auto my-4 md:max-w-3xl">
+      <div className="md:max-w-2xl mx-2 md:mx-0 ">
+        <h1 className="text-3xl font-bold mb-2">
+          React Instagram Photo Gallery
+        </h1>
+        <p className="text-sm md:text-lg">
+          Styled with vanilla tailwind it has a style similar to Instagram, with
+          a grid where the photos can be opened, are fully responsive, and can
+          also be swiped with a finger.
+        </p>
+      </div>
       <PhotoGallery images={images} />
-    </>
+    </div>
   );
 }
 
